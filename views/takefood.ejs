@@ -1,0 +1,55 @@
+<!-- <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Take</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon/favicon.ico">
+  </head>
+  <body>
+
+<header>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light bg">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img class="leaf" src="images/leaf.png" alt="kid"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="myCV.html"> Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="takefood-header">
+<div class="container">
+<div class="row">
+  <% for(var i=0;i<newListItems.length;i++){ %>
+    <div class="col-md-6">
+      <form  action="/food" method="post">
+        <button class="donate-food" type="submit" name="button1">
+          <p class="ejs-heading"> <%= kindOfDay %> </p><br>
+          <h4><%=newListItems[i].name%></h4>
+        </button>
+      </form>
+      <form  action="/delete2" method="post">
+        <button class="delete-food" type="submit" value="<%=newListItems[i]._id%>" name="button"><i class="fas fa-trash fa-lg delete-icon"></i></button>
+      </form>
+    </div>
+<%  } %>
+
+</div>
+</div>
+</div>
+
+  </body>
+</html> -->

@@ -1,0 +1,406 @@
+body{
+  text-align: center;
+}
+
+a {
+  color: #4d4646 !important;
+  text-decoration: none !important;
+}
+
+.container{
+  max-width: 950px;
+}
+
+
+.bg{
+  background-color: #555555;
+}
+
+.leaf{
+  width:62px;
+}
+
+.nav-link{
+  /* font-size: 20px; */
+  margin-right: 8px;
+}
+.nav-link:hover{
+  /* font-size: 20px; */
+  color: #fff !important;
+}
+
+/* .startScreen{
+  background-color: #c0ffb3;
+  margin-top: 5.5rem;
+  position: fixed;
+  text-align: center;
+  width:100%;
+} */
+
+/* .headerDesc{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 300%;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding: 10.5% 25%;
+  text-align: center;
+} */
+
+/************************************* new css added ************************/
+
+.image-5{
+  width:100%;
+  /* z-index: -2; */
+}
+
+.image-4{
+  width:100%;
+  /* z-index: -2; */
+}
+
+.image-7{
+  width:100%;
+  /* z-index: -2; */
+}
+
+.start-header{
+color: #fff;
+  display: inline-block;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+  position: absolute;
+  text-align: left !important;
+  top: 350px;
+  left: 250px;
+  padding-right: 45%;
+  /* right:20%; */
+}
+
+.home-icon{
+  color: #ffd31d; /*f56a79*/
+  /* font-family: 'Indie Flower', cursive; */
+  position: absolute;
+  top: 40px;
+  left: 250px;
+  /* z-index: -1; */
+}
+
+.home-icon-2{
+  color: #ffd31d; /*f56a79*/
+}
+
+
+.tagname{
+  color: #ffd31d; /*f56a79*/
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 300px;
+  /* z-index: -1; */
+}
+
+.tagname-2{
+  color: #ffd31d; /*f56a79*/
+  font-family: 'Indie Flower', cursive;
+  padding: 10px;
+  /* font-weight: bold; */
+}
+
+.start-btn{
+  /* color: #ffd31d !important; */
+  position: absolute;
+  top: 40px;
+  right: 30px;
+  /* font-weight: bold; */
+  /* margin-left: 5px; */
+}
+
+.start-bottom-btn{
+  /* color: #ffd31d !important; */
+  position: absolute;
+  top: 650px;
+  left: 250px;
+  /* font-weight: bold; */
+  /* margin-left: 5px; */
+}
+
+
+.food1{
+  bottom: 310px;
+  position: absolute;
+  right:0;
+  width:26%;
+}
+
+.food2{
+  bottom: 60px;
+  position: absolute;
+  right:0;
+  width:19%;
+}
+
+.food3{
+  bottom: 10px;
+  left:-7%;
+  position: absolute;
+  width:26%;
+}
+
+.food4{
+  bottom: 15px;
+  position: absolute;
+  right:17%;
+  width:22%;
+}
+
+.food5{
+  bottom: 10px;
+  left:17%;
+  position: absolute;
+  width:22%;
+}
+
+.food6{
+  bottom: 300px;
+  left:-7%;
+  position: absolute;
+  width:22%;
+}
+
+.food7{
+  bottom: 380px;
+  left:10%;
+  position: absolute;
+  width:12%;
+}
+
+.pineapple{
+  margin-left:7px;
+  margin-right:7px;
+  position: relative;
+  top: 30px;
+  width:2.5%;
+}
+/**********************************Food**********************************/
+
+.jumbotron{
+  margin-top: 10%;
+  text-align: left;
+}
+
+/************************************Login-Home**********************************/
+
+.home-header{
+color: #fff;
+  display: inline-block;
+font-family: 'Montserrat', sans-serif;
+font-weight: bold;
+  position: fixed;
+  text-align: left !important;
+  top: 450px;
+  left: 250px;
+  padding-right: 35%;
+  /* right:20%; */
+}
+
+.home-icon{
+  color: #ffd31d; /*f56a79*/
+  /* font-family: 'Indie Flower', cursive; */
+  position: absolute;
+  top: 40px;
+  left: 250px;
+}
+
+.tagname{
+  color: #ffd31d; /*f56a79*/
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+  position: absolute;
+  top: 40px;
+  left: 300px;
+}
+
+.centered {
+  /* color: #fff !important; */
+    /* padding-top: 200px; */
+    /* position: relative; */
+    text-align: center;
+}
+
+.secret-text {
+  background-color: #000;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.home-btn{
+  position: fixed;
+  bottom: 120px !important;
+  left: 250px;
+  /* margin-left: 5px; */
+}
+
+.image-6{
+  /* Safari 6.0 - 9.0 */
+  width: 100%;
+  /* position: absolute; */
+}
+
+/*********************************Login Register****************************/
+
+.image-2{
+  width: 100%;
+}
+
+.card{
+box-shadow: 0 2px 5px #000;
+  margin-left: 20%;
+}
+
+/**********************************Login Login **************************/
+
+.login-header{
+  padding-right: 20%;
+}
+
+/***********************************Donat Food ******************************/
+
+.add-donate{
+  margin-left: 5%;
+  margin-top: 10%;
+}
+
+.donate-food{
+  background: #555555;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  /* float: left; */
+  color: #fbf7f0;
+  height: 150px;
+  margin: 3% 3% 3% 3%;
+  padding-top: 5px;
+  width: 350px;
+}
+
+.donate-food:hover{
+  background: #cdc9c3;
+  color: #555555;
+}
+
+.delete-food{
+  background-color: #fff;
+  border: none;
+}
+.minus{
+  font-size: 10%;
+}
+.delete-icon{
+float: right;
+}
+
+.delete-icon:hover{
+  color: #ee6f57;
+}
+
+
+/***********************************Donate***********************************/
+
+.donate-header{
+    margin: 10% 2% 2%;
+    text-align: left;
+}
+
+/***********************************Take***********************************/
+
+.take-header{
+    margin: 10% 2% 2%;
+    text-align: left;
+}
+
+.takefood-header{
+  margin: 10% 2% 2%;
+}
+
+/*********************************** Second Screen ******************************/
+
+.secondScreen{
+  background-color: #ffff;
+  margin-top: 5rem;
+  padding: 50px 1px 100px;
+  position: absolute;
+  width:100%;
+  /* z-index: 1; */
+}
+
+.secondScreenHeading{
+  color: #4d4646;
+  font-family: 'Anton', sans-serif;
+  font-size: 280%;
+  letter-spacing: 3px;
+  margin: 80px 30px 50px;
+}
+
+.secondScreenSemiHeading{
+  margin: 100px;
+}
+
+.take {
+  background: #ff9a76;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #ccc;
+  color: #4d4646;
+  height: 300px;
+  margin: 16px 16px 16px 50px;
+  padding-top: 20px;
+  width: 350px;
+}
+
+.take:hover{
+  background: #c0ffb3;
+}
+
+/********************************** Third Screen ********************************/
+
+.thirdScreen{
+  background-color: #fff;
+  margin-top: 52rem;
+  position: absolute;
+  width: 100%;
+}
+
+.testimonials{
+  margin: 90px 10px;
+}
+
+.testimonial-image{
+  border-radius: 50%;
+  margin: 50px 0;
+  width: 40%;
+}
+
+/************************************** Footer ********************************/
+
+footer {
+  background-color: #000;
+  margin-top: 92rem;
+  padding: 50px 30px 0 30px;
+  position: absolute;
+  width: 100%;
+}
+
+.footerLink{
+  color: #fff;
+  display: inline-block;
+  font-size: 120%;
+  margin:30px;
+ }
+
+.footerPar{
+  color: #fff;
+  margin-top: 50px;
+}
+
+/************************************** rest **********************************/
